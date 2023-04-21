@@ -1,0 +1,8 @@
+sqgxy001,张三,19,武汉
+sqgxy002,李四,18,北京
+sqgxy003,王五,20,上海
+sqgxy004,赵六,21,信阳
+sqgxy005,aaa,18,aaa
+sqgxy006,bbb,11,bbb
+sqgxy007,ccc,12,ccc
+sqgxy008,ddd,13,ddd

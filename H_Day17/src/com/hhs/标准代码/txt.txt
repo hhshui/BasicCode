@@ -1,0 +1,16 @@
+public static void main(String[] args) IOException{
+    FileInputStream fis = new FileInputStream("D:\\java-workspace\\BasicCode\\H_Day17\\test\\copy1.txt");
+    FileOutputStream fos = new FileOutputStream("D:\\java-workspace\\BasicCode\\H_Day17\\test\\copy2.txt");
+
+    byte[] bys = new byte[1024];
+
+    int len;
+    while((len = fis.read(bys)) != -1){
+        fos.write(bys,len,0);
+    }
+
+    fis.close();
+    fos.close();
+
+
+}
